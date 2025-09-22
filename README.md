@@ -39,10 +39,14 @@ typedef struct Tree {
     int sortBy; // 0: ID, 1: Name, 2: Date, 3: Duration
 } TreeInfo;
 
-How to Compile and Run
-Prerequisites
+##How to Compile and Run
+
+###Prerequisites
+
 A C compiler (e.g., GCC)
-Compilation
+
+###Compilation
+
 Save the provided C code as main.c.
 Open a terminal or command prompt.
 Navigate to the directory where you saved main.c.
@@ -63,26 +67,30 @@ Code
 102#Review code changes#03/06/2024#4.0
 103#Schedule meeting#30/05/2024#0.5
 104#Research new tech#05/06/2024#1.5
-Functions Overview
-Menu(): Displays the main menu options to the user.
-loadTasks(Task *root, TreeInfo* info, const char *fileName): Loads tasks from a file and inserts them into the BST.
-createTask(int id, char *name, char *date, float duration): Allocates memory and initializes a new Task node.
-addTask(Task *root, Task* newTask, TreeInfo* info, int currentHeight): Inserts a new task into the BST based on the current sortBy criterion.
-deleteTask(Task *root, int id, TreeInfo* info): Deletes a task by ID from the BST.
-printTree(Task *root): Performs an in-order traversal to print all tasks in the BST.
-searchById(Task *root, int id): Searches for a task by its ID.
-searchTaskByName(Task *root, char name[]): Searches for a task by its name (requires restructuring by name).
-performTask(Task *root, int id): Marks a task as performed.
-viewUnperformedByName(Task *root): Traverses the tree to find and print unperformed tasks (sorted by name if the tree is structured this way).
-viewPerformedById(Task *root): Traverses the tree to find and print performed tasks (sorted by ID if the tree is structured this way).
-restructureBST(Task *root, TreeInfo* info): Rebuilds the BST based on a new sorting criterion.
-addToNewTree(Task* task, Task* newRoot, TreeInfo* info): Helper for restructureBST, recursively adds tasks to a new tree.
-viewBSTInfo(TreeInfo* info): Displays current information about the BST (height, size, leaves, etc.).
-printTask(Task *task): Helper function to print a single task's details.
-destroy(Task *root): Frees all allocated memory in the BST.
-checkDuplicateId(Task *root, int id): Checks if a task with the given ID already exists in the BST.
-dateToNumber(char* date): Converts a date string (D/M/Y) into an integer for comparison.
-checkTreeInfo(Task* root, int currentHeight, TreeInfo* info): Recursively calculates and updates TreeInfo fields like height, leaves, and internal nodes.
+
+
+##Functions Overview
+
+*   `Menu(): Displays the main menu options to the user.
+*   `loadTasks(Task *root, TreeInfo* info, const char *fileName): Loads tasks from a file and inserts them into the BST.
+*   `createTask(int id, char *name, char *date, float duration): Allocates memory and initializes a new Task node.
+*   `addTask(Task *root, Task* newTask, TreeInfo* info, int currentHeight): Inserts a new task into the BST based on the current sortBy criterion.
+*   `deleteTask(Task *root, int id, TreeInfo* info): Deletes a task by ID from the BST.
+*   `printTree(Task *root): Performs an in-order traversal to print all tasks in the BST.
+*   `searchById(Task *root, int id): Searches for a task by its ID.
+*   `searchTaskByName(Task *root, char name[]): Searches for a task by its name (requires restructuring by name).
+*   `performTask(Task *root, int id): Marks a task as performed.
+*   `viewUnperformedByName(Task *root): Traverses the tree to find and print unperformed tasks (sorted by name if the tree is structured this way).
+*   `viewPerformedById(Task *root): Traverses the tree to find and print performed tasks (sorted by ID if the tree is structured this way).
+*   `restructureBST(Task *root, TreeInfo* info): Rebuilds the BST based on a new sorting criterion.
+*   `addToNewTree(Task* task, Task* newRoot, TreeInfo* info): Helper for restructureBST, recursively adds tasks to a new tree.
+*   `viewBSTInfo(TreeInfo* info): Displays current information about the BST (height, size, leaves, etc.).
+*   `printTask(Task *task): Helper function to print a single task's details.
+*   `destroy(Task *root): Frees all allocated memory in the BST.
+*   `checkDuplicateId(Task *root, int id): Checks if a task with the given ID already exists in the BST.
+*   `dateToNumber(char* date): Converts a date string (D/M/Y) into an integer for comparison.
+*   `checkTreeInfo(Task* root, int currentHeight, TreeInfo* info): Recursively calculates and updates TreeInfo fields like height, leaves, and internal nodes.
  
- # Author
- Laila Awad
+## Author
+
+*   Laila Awad
