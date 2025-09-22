@@ -39,11 +39,15 @@ typedef struct Tree {
     int sortBy; // 0: ID, 1: Name, 2: Date, 3: Duration
 } TreeInfo;
 
+
+
 ##How to Compile and Run
 
 ##Prerequisites
 
 A C compiler (e.g., GCC)
+
+
 ##Compilation
 Save the provided C code as main.c.
 Open a terminal or command prompt.
@@ -52,7 +56,10 @@ Compile the code using a C compiler:
 code
 Bash
 gcc main.c -o task_bst_manager
+
+
 ##Running the Program
+
 After successful compilation, run the executable:
 code
 Bash
@@ -92,6 +99,8 @@ destroy(Task *root): Frees all allocated memory in the BST.
 checkDuplicateId(Task *root, int id): Checks if a task with the given ID already exists in the BST.
 dateToNumber(char* date): Converts a date string (D/M/Y) into an integer for comparison.
 checkTreeInfo(Task* root, int currentHeight, TreeInfo* info): Recursively calculates and updates TreeInfo fields like height, leaves, and internal nodes.
+
+
 
 #Author
 Laila Awad - 1230085 - Section 4
