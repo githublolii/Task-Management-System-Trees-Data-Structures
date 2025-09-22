@@ -1,0 +1,48 @@
+10#meeting#22/3/2025#1.5
+101#attend lecture#25/3/2025#3
+120#shopping#21/3/2025#5.5
+313#visit grandparents#24/3/2025#7
+142#study COMP2421 course#24/3/2025#3.5
+143#submit project 1#5/4/2025#0.1
+11#cook dinner#22/4/2025#1
+12#ride bicycle#23/4/2025#2
+13#buy groceries#24/4/2025#1.5
+14#study analog electronics#22/4/2025#1.5
+15#straighten hair#25/4/2025#3
+16#buy a new ring#21/4/2025#5.5
+17#play with your little brother#24/4/2025#7
+18#study spanish#24/4/2025#3.5
+19#call a friend#24/4/2025#0.5
+20#study data structures#25/4/2025#3
+21#eat brunch#25/4/2025#1
+22#sister date#26/4/2025#2
+23#do JS task#12/5/2025#2
+24#brush your hair#27/4/2025#0.2
+25#clean your glasses#27/4/2025#0.3
+26#do research#28/4/2025#4
+27#go on a walk#28/4/2025#1
+28#go to the gym#29/4/2025#1.5
+29#facetime aunt#29/4/2025#0.5
+30#do codeforces#30/4/2025#2
+31#watch a movie#30/4/2025#2.5
+32#scroll on pinterest#1/5/2025#1
+33#buy a gift#1/5/2025#1
+34#make a new pasta recipe#2/5/2025#2
+35#watch online classes#2/5/2025#3
+36#do homework#3/5/2025#2
+37#pack up your bag#3/5/2025#0.5
+38#buy a new hairbrush#4/5/2025#0.3
+39#finish your book#4/5/2025#3
+40#plan the weekend#5/5/2025#1
+41#reply to emails#5/5/2025#0.5
+42#attend batol's party#6/5/2025#5
+43#plan imeche calendar#6/5/2025#2
+44#make salad#7/5/2025#1
+45#birthday picnic#20/5/2025#4
+46#buy decorations#8/5/2025#2
+47#bake a cake#9/5/2025#3
+48#watch anime#9/5/2025#2
+49#read newest IT articles#10/5/2025#1.5
+50#walk the dog#10/5/2025#1
+
+
