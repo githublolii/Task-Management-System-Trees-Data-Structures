@@ -4,17 +4,17 @@ This project implements a Task Management System in C, utilizing a Binary Search
 
 ## Features
 
-*   **Load Tasks from File:** Load initial tasks from a specified text file (`tasks.txt`).
-*   **Add New Task:** Create and add a new task with an ID, name, date, and duration into the BST.
-*   **Delete Task:** Remove a task from the BST by its ID.
-*   **Search for Task:** Find tasks by either their ID or name.
-*   **Perform Task:** Mark a task as "performed" without removing it from the tree.
-*   **View Unperformed Tasks:** Display all tasks that have not yet been marked as performed (sorted by name).
-*   **View Performed Tasks:** Display all tasks that have been marked as performed (sorted by ID).
-*   **Restructure BST:** Rebuild the BST based on different sorting criteria (ID, Name, Date, Duration).
-*   **View BST Info:** Display the height, number of leaves, internal nodes, size of the tree, and current sorting criterion.
-*   **Duplicate ID Check:** Prevents adding tasks with an ID that already exists.
-*   **Memory Management:** Proper allocation and deallocation of memory for tasks.
+* **Load Tasks from File:** Load initial tasks from a specified text file (`tasks.txt`).
+* **Add New Task:** Create and add a new task with an ID, name, date, and duration into the BST.
+* **Delete Task:** Remove a task from the BST by its ID.
+* **Search for Task:** Find tasks by either their ID or name.
+* **Perform Task:** Mark a task as "performed" without removing it from the tree.
+* **View Unperformed Tasks:** Display all tasks that have not yet been marked as performed (sorted by name).
+* **View Performed Tasks:** Display all tasks that have been marked as performed (sorted by ID).
+* **Restructure BST:** Rebuild the BST based on different sorting criteria (ID, Name, Date, Duration).
+* **View BST Info:** Display the height, number of leaves, internal nodes, size of the tree, and current sorting criterion.
+* **Duplicate ID Check:** Prevents adding tasks with an ID that already exists.
+* **Memory Management:** Proper allocation and deallocation of memory for tasks.
 
 ## Data Structure
 
@@ -38,6 +38,7 @@ typedef struct Tree {
     int internalNodes;
     int sortBy; // 0: ID, 1: Name, 2: Date, 3: Duration
 } TreeInfo;
+
 ##How to Compile and Run
 ##Prerequisites
 A C compiler (e.g., GCC)
