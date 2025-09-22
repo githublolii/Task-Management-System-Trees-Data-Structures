@@ -40,7 +40,9 @@ typedef struct Tree {
 } TreeInfo;
 
 ##How to Compile and Run
+
 ##Prerequisites
+
 A C compiler (e.g., GCC)
 ##Compilation
 Save the provided C code as main.c.
@@ -68,7 +70,9 @@ Code
 102#Review code changes#03/06/2024#4.0
 103#Schedule meeting#30/05/2024#0.5
 104#Research new tech#05/06/2024#1.5
+
 ##Functions Overview
+
 Menu(): Displays the main menu options to the user.
 loadTasks(Task *root, TreeInfo* info, const char *fileName): Loads tasks from a file and inserts them into the BST.
 createTask(int id, char *name, char *date, float duration): Allocates memory and initializes a new Task node.
@@ -88,5 +92,6 @@ destroy(Task *root): Frees all allocated memory in the BST.
 checkDuplicateId(Task *root, int id): Checks if a task with the given ID already exists in the BST.
 dateToNumber(char* date): Converts a date string (D/M/Y) into an integer for comparison.
 checkTreeInfo(Task* root, int currentHeight, TreeInfo* info): Recursively calculates and updates TreeInfo fields like height, leaves, and internal nodes.
+
 ##Author
 Laila Awad - 1230085 - Section 4
