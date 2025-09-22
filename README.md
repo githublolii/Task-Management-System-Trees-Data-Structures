@@ -90,7 +90,7 @@ Code
 *   `checkDuplicateId(Task *root, int id): Checks if a task with the given ID already exists in the BST.
 *   `dateToNumber(char* date): Converts a date string (D/M/Y) into an integer for comparison.
 *   `checkTreeInfo(Task* root, int currentHeight, TreeInfo* info): Recursively calculates and updates TreeInfo fields like height, leaves, and internal nodes.
- 
+
 ## Author
 
 *   Laila Awad
